@@ -9626,7 +9626,9 @@ html::-webkit-scrollbar, body::-webkit-scrollbar {
   #galeriaid{
     margin-top: 45px;
   }
-  
+  .h2cuidados{
+    margin-top: 3px;
+  }
 
 }
 @media (max-width: 600px) {
