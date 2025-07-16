@@ -25,9 +25,9 @@ const imagens = [
   "assets/img1.jpg",
   "assets/img6.png",
   "assets/img5.png",
-  "assets/img3.png",
+  "assets/img2.jpg",
   "assets/img4.jpg",
-  "assets/img2.jpg"
+  "assets/img3.png"
 ];
 
 let indiceAtual = 0;
