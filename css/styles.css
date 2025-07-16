@@ -580,8 +580,8 @@ progress {
 }
 .img-fluid2 {
   max-width: 100%;
-  margin-top: 10px;
-  margin-bottom: 0px;
+  margin-top: 5px;
+  margin-bottom: 5px;
 }
 .img-thumbnail {
   padding: 0.25rem;
@@ -9491,8 +9491,8 @@ html::-webkit-scrollbar, body::-webkit-scrollbar {
 
 .img-galeria {
   width: 100%;
-  max-width: 220px;
-  height: 160px; /* Adicione esta linha */
+  max-width: 205px;
+  height: 145px; /* Adicione esta linha */
   object-fit: cover; /* Garante que a imagem preencha sem deformar */
   cursor: pointer;
   transition: transform 0.2s ease;
@@ -9767,5 +9767,16 @@ html::-webkit-scrollbar, body::-webkit-scrollbar {
 @media (min-width: 1200px) {
   .img-fluid2 {
    margin-left: 8%;
+ }
+
+}
+@media (min-width: 992px) and (max-width: 992px) {
+  .h2cuidados {
+    margin-top: 10%;
+  }
+}
+@media (min-width: 992px) {
+  .secaocrescimento {
+   margin-top: 2%;
  }
 }
