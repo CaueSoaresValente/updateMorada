@@ -32,7 +32,7 @@ const imagens = [
 
 let indiceAtual = 0;
 let loteAtual = 0;
-const tamanhoLote = 3;
+const tamanhoLote = 4;
 
 function carregarMais() {
   const galeria = document.getElementById("galeria");
