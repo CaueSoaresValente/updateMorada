@@ -9483,20 +9483,22 @@ html::-webkit-scrollbar, body::-webkit-scrollbar {
 }
 
 .galeria {
- display: flex;
+  display: flex;
   flex-wrap: wrap;
   gap: 10px;
   justify-content: center;
-  margin-bottom: 15px;
 }
 
 .img-galeria {
   width: 100%;
   max-width: 220px;
+  height: 160px; /* Adicione esta linha */
+  object-fit: cover; /* Garante que a imagem preencha sem deformar */
   cursor: pointer;
-  border-radius: 8px;
   transition: transform 0.2s ease;
+  border-radius: 10px;
 }
+
 
 .img-galeria:hover {
   transform: scale(1.05);
@@ -9761,4 +9763,9 @@ html::-webkit-scrollbar, body::-webkit-scrollbar {
 .body-scroll-lock {
   overflow: hidden;
   height: 100vh;
+}
+@media (min-width: 1200px) {
+  .img-fluid2 {
+   margin-left: 8%;
+ }
 }
